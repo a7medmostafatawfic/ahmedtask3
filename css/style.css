@@ -1,0 +1,65 @@
+
+.navbar{
+
+    border-bottom: solid 5px rgb(10, 95, 186);
+    
+}
+.navbar ul li a{
+    font-weight: 300px;
+
+}
+header{
+    min-height:150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.416) , rgba(0, 0, 0, 0.416)) , url(../images/photo1687270497\ \(4\).jpeg); 
+    background-position: center;
+    background-size: cover;
+
+
+    padding-top: 300px;
+    
+}
+.meals{
+    margin-bottom: -5px;
+    background-color: rgb(231, 226, 226);
+}
+
+.meals img{
+    width: 100%;
+    opacity: .6;
+}
+.meals img:hover{
+     opacity: 1;
+     transition: 1s;
+}
+footer{
+    background-color: rgb(173, 18, 106);
+}
+footer p{
+   color: rgb(53, 218, 11);
+   text-align: center;
+   margin-top: 30px;
+}
+ .social-nav {
+    display: flex;
+    list-style: none;
+    margin-right: -300px;
+}
+.social-nav li {
+    margin-right: 20px;
+   
+}
+.social-nav li a:link ,
+.social-nav li a:visited
+{ 
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.social-nav li a:hover ,
+.social-nav li a:active
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(229, 230, 236);
+    text-decoration: underline;
+}
